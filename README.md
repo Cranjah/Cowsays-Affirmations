@@ -3,7 +3,7 @@
 
 ### Description of the Functionalities:
 
-Based on the idea of consulting some aspects of positive psychology to ensure my good performance in the upcoming study period, I developed this little playful program based on the “cowsay” Python library and ultimately on affirmations and the findings of a study on the effects of positive psychology on the study of computer science (see link for the scientific background).
+Based on the idea of consulting some aspects of positive psychology to ensure my good performance in the upcoming study period, I developed this little playful program based on the “cowsay” Python library and ultimately on affirmations and the findings of a study on the valueable effects of positive psychology for studying computer science (see link for the scientific background).
 
 The program simulates the functioning of a snack vending machine, at the beginning you are asked to select a number between 1 and 20 - afterwards you have to pay the total price of 1.20 € or ingame 120 cents in coins. To pay the price, you are asked to enter a common European coin format (the gradations are: 1, 2, 5, 10, 20, 50, 100, 200, which corresponds to coins worth the corresponding amount of cents).
 
