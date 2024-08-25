@@ -39,7 +39,7 @@ def main():
             choice = random.randint(1, 20)
 
         except EOFError:
-            print("")
+            print("\n", end="")
             cowsay.cow("You did exit this program on purpose! See you!")
             sys.exit(1)
 
@@ -78,7 +78,7 @@ def main():
                 continue
 
             except EOFError:
-                print("")
+                print("\n", end="")
                 cowsay.cow("I'm sorry to hear, that you ran out of money!")
                 sys.exit(1)
 
