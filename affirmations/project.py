@@ -4,29 +4,35 @@ import sys
 import cowsay
 import random
 
+
 def main():
     amount = 120
 
-    affirmations = ["I learn a little bit every day.",
-                    "I am doing my best.",
-                    "I know more today than I knew yesterday.",
-                    "I am ready to learn something new today.",
-                    "I can ask for help.",
-                    "I can help others who need me.",
-                    "I can achieve my goals.",
-                    "I can do difficult things.",
-                    "I can learn from my mistakes.",
-                    "I can use more than one language to communicate.",
-                    "I play an important role in my community.",
-                    "I accept all of my emotions.",
-                    "I am ready for a new challenge.",
-                    "I am different and unique.",
-                    "I treat others with kindness and respect.",
-                    "I am grateful for my friends and family.",
-                    "I am thankful for my teacher.",
-                    "I take care of my body and mind.",
-                    "I focus on things that matter to me.",
-                    "I feel wonderful."]
+    affirmations = [
+        "I learn a little bit every day.",
+        "I am doing my best.",
+        "I know more today than I knew yesterday.",
+        "I am ready to learn something new today.",
+        "I can ask for help.",
+        "I can help others who need me.",
+        "I can achieve my goals.",
+        "I can do difficult things.",
+        "I can learn from my mistakes.",
+        "I can use more than one language to communicate.",
+        "I play an important role in my community.",
+        "I accept all of my emotions.",
+        "I am ready for a new challenge.",
+        "I am different and unique.",
+        "I treat others with kindness and respect.",
+        "I am grateful for my friends and family.",
+        "I am thankful for my teacher.",
+        "I take care of my body and mind.",
+        "I focus on things that matter to me.",
+        "I feel wonderful.",
+    ]
+
+    automatasciiart = " _________________________________________\n|_________________________________________|\n|                                         |\n|          POSITIVE AFFIRMATIONS          |\n|                                         |\n|       .-----------. .-----------.   123 |\n|      |   No. 01   | |   No. 02   |  456 |\n|      |            | |            |  789 |\n|      |  [ 1,2O ]  | |  [ 1,2O ]  |  ### |\n|       '-----------' '-----------'       |\n|                                     ||  |\n|       .-----------. .-----------.       |\n|      |   No. 03   | |   No. 04   |      |\n|      |            | |            |      |\n|      |  [ 1,2O ]  | |  [ 1,2O ]  |      |\n|       '-----------' '-----------'       |\n|                                         |\n|   TAKE FROM HERE!                       |\n|     ___________                         |\n|    |           |                        |\n|____|___________|________________________|\n|_________________________________________|\n"
+    print(automatasciiart)
 
     while True:
         try:
@@ -91,6 +97,7 @@ def main():
             print(f"We owe you some change for your purchase: {amount} Cents")
             cowsay.cow(f"{affirmations[choicecalc]}")
             sys.exit(1)
+
 
 if __name__ == "__main__":
     main()
